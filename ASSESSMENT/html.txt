@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+  <!-- Icons -->
+  <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+  <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css'>
+  <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+  <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-straight/css/uicons-regular-straight.css'>
+  <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-bold-rounded/css/uicons-bold-rounded.css'>
+  <title>SWEET COURSE</title>
+  <link rel="icon" href="image/logo.png" type="image/x-icon">
+
+   
+</head>
+
+<body>
+<!-- header -->
+<header>
+    <nav class="nav-wrapper transparent">
+        <div class="container">
+            <a href="#" class="brand-logo">SWEET COURSE</a>
+            <a href="#" class="sidenav-trigger" data-target="mobile"><i class="fi fi-rr-menu-burger"></i></a>
+            
+
+            <ul class="right hide-on-med-and-down">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Login</a></li>
+            </ul>
+
+            <ul class="sidenav pink lighten-5 center" id="mobile">
+                <h5 class="black-text">SWEET COURSE</h5>
+                <br>
+                <li><a href="#" class="waves-effect waves-dark black-text">Home</a></li>
+                <li><a href="#" class="waves-effect waves-dark black-text">Menu</a></li>
+                <li><a href="#" class="waves-effect waves-dark black-text">Login</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+</div>
+
+<!--botton--->
+<div class="fixed-action-btn">
+  <a class="btn-floating btn-large pink lighten-4">
+    <i class="fi fi-rr-apps"></i>
+  </a>
+  <ul>
+    <li><a class="btn-floating blue lighten-4"><i class="fi fi-rr-shopping-cart"></i></a></li>
+    <li><a class="btn-floating blue lighten-3"><i class="fi fi-sr-bookmark"></i></a></li>
+    <li><a class="btn-floating pink lighten-2"><i class="fi fi-br-user"></i></a></li>
+    <li><a class="btn-floating pink lighten-3"><i class="fi fi-rr-cross-small"></i></a></li>
+  </ul>
+</div>
+
+<!-- img with description -->
+<section class="container section">
+    <div class="row">
+        <div class="col s12 m4 push-l2">
+            <img class="responsive-img materialboxed" src="image/model1.jpg">
+        </div>
+        <div class="col s12 m4 push-l3">
+            <h5 class="black-text center">BOBA TEA TREATS</h5>
+            <br>
+            <p class="center"> New drinks this coming December!</p>
+            <p class="center"> Ain't life boba-licious?</p>
+            <p class="center"> A cup of tea is a cup of peace.</p>
+        </div>
+        </div>
+        <br>
+        <div class="row">
+        <div class="col s12 m4 push-l7">
+            <img class="responsive-img materialboxed" src="image/model2.jpg">
+        </div>
+        <div class="col s12 m4 pull-l2">
+            <h5 class="black-text center">DON'T U LUV TEA?</h5>
+            <p class="center">First drink, then let's think about it. What is this?</p>
+            <p class="center">Hmmmm... Let's TEA-nk about it. </p>
+        </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col s12 m4 push-l2">
+                <img class="responsive-img materialboxed" src="image/model3.jpg">
+            </div>
+            <div class="col s12 m4 push-l3">
+                <h5 class="black-text center">SO CUTEA RIGHT?</h5>
+                <p class="center">You can regret a lot of things but you'll never regret being kind.</p>
+                <p class="center">Do whatever makes you happiest.</p>
+                <p class="center">Coz Good life is in the bubbles.</p>
+            </div>
+    </div>
+</div>
+</section>
+
+<section class="container section">
+    <div class="row">
+        <div class="col s12 l5">
+            <h4 class="black-text center">SWEET COURSE OFFER....</h4>
+            <p class="black-text center">Fresh and Newly bake from the kitchen pastries!</p>
+            <p class="black-text center">Mouthwatering beverages are also on the menu!</p>
+        </div>
+
+    <div class="col s12 l6 offset-l1">
+        <ul class="tabs">
+            <li class="tab col s6">
+                <a href="#cb" class="black-text">Combo Details</a>
+            </li>
+            <li class="tab col s6">
+                <a href="#mc" class="black-text">Macaroons Details</a>
+            </li>
+        </ul>
+        <div class="col s12" id="cb">
+            <p class="flow-text black-text">The New Combo</p>
+            <p> For early christmas celebration, we got you! We prepare the most requested cute cupcakes!</p>
+            <p> It comes with new cute designs, you can also make a request if you want it to be customized.</p>
+        </div>
+        <div class="col s12" id="mc">
+            <p class="flow-text black-text">Best Macaroons</p>
+            <p>Yey! The best selling macaroons are now serving and on the BNS app, you can now order it through online or in the shop.</p>
+            <p> We added 3 more flavors! Make sure to pass by and don't miss out the new flavors!</p>
+        </div>
+    </div>
+    </div>
+  
+</section>
+</body>
+
+<!-- Slider -->
+<div class="slider">
+    <ul class="slides">
+      <li>
+        <img src="image/combo1.jpg"> <!-- random image -->
+        <div class="caption center-align">
+          <h3>CuteBoo Bear</h3>
+          <h5 class="black-text">Comes with four pieces, random shapes and flavor.</h5>
+        </div>
+      </li>
+      <li>
+        <img src="image/combo2.jpg"> <!-- random image -->
+        <div class="caption left-align">
+          <h3 class="black-text">Rose and Quartz Cupcake</h3>
+          <h5 class="black-text">Comes with 4, 8, or 12 pieces, random shapes and flavor. </h5>
+        </div>
+      </li>
+      <li>
+        <img src="image/combo3.jpg"> <!-- random image -->
+        <div class="caption right-align">
+          <h3 class="black-text">Heaven's Cloud Cupcake</h3>
+          <h5 class="black-text">Have 2 versions.</h5>
+          <p class="black-text">Version 1 comes with 4 pieces of cupcake, serenity color but milk and choco flavor.</p>
+          <p class="black-text">Version 2 comes with 4 pieces of cupcake, random cute colors and shapes, also milk and choco flavor.</p>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+  <section class="container section">
+    <div class="row">
+        <h3 class="black-text center">DONUTS</h3>
+        <h4 class="black-text center">New Added Flavors</h4>
+
+  <!-- cards -->
+  <div class="row">
+    <div class="col s12 m4">
+      <div class="card">
+        <div class="card-image">
+          <img src="image/donut1.jpg">
+          <span class="card-title"></span>
+          <a class="btn-floating halfway-fab waves-effect waves-light pink lighten-4"><i class="fi fi-rr-following"></i></a>
+        </div>
+        <div class="card-content">
+          <p>Strawberry Donut Flavor comes with 5 pieces per box.</p>
+        </div>
+      </div>
+      </div>
+
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="card">
+            <div class="card-image">
+              <img src="image/donut2.jpg">
+              <span class="card-title"></span>
+              <a class="btn-floating halfway-fab waves-effect waves-light blue lighten-4"><i class="fi fi-rr-following"></i></a>
+            </div>
+            <div class="card-content">
+              <p>Chocolate Donut Flavor comes with 5 pieces per box.</p>
+            </div>
+          </div>
+          </div>
+
+          <div class="row">
+            <div class="col s12 m4">
+              <div class="card">
+                <div class="card-image">
+                  <img src="image/donut3.jpg">
+                  <span class="card-title"></span>
+                  <a class="btn-floating halfway-fab waves-effect waves-light pink lighten-4"><i class="fi fi-rr-following"></i></a>
+                </div>
+                <div class="card-content">
+                  <p>Coffee Donut Flavor comes with 5 pieces per box.</p>
+                </div>
+              </div>
+              </div>
+          
+              <div class="row">
+                <div class="col s12 m4">
+                  <div class="card">
+                    <div class="card-image">
+                      <img src="image/donut1.jpg">
+                      <span class="card-title"></span>
+                      <a class="btn-floating halfway-fab waves-effect waves-light pink lighten-4"><i class="fi fi-rr-following"></i></a>
+                    </div>
+                    <div class="card-content">
+                      <p>Strawberry Donut Flavor comes with 5 pieces per box.</p>
+                    </div>
+                  </div>
+                  </div>
+            
+                  <div class="row">
+                    <div class="col s12 m4">
+                      <div class="card">
+                        <div class="card-image">
+                          <img src="image/donut2.jpg">
+                          <span class="card-title"></span>
+                          <a class="btn-floating halfway-fab waves-effect waves-light blue lighten-4"><i class="fi fi-rr-following"></i></a>
+                        </div>
+                        <div class="card-content">
+                          <p>Chocolate Donut Flavor comes with 5 pieces per box.</p>
+                        </div>
+                      </div>
+                      </div>
+            
+                      <div class="row">
+                        <div class="col s12 m4">
+                          <div class="card">
+                            <div class="card-image">
+                              <img src="image/donut3.jpg">
+                              <span class="card-title"></span>
+                              <a class="btn-floating halfway-fab waves-effect waves-light pink lighten-4"><i class="fi fi-rr-following"></i></a>
+                            </div>
+                            <div class="card-content">
+                              <p>Coffee Donut Flavor comes with 5 pieces per box.</p>
+                            </div>
+                          </div>
+                          </div>
+                        </section>
+<!-- footer -->
+<footer class="page-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col l6 s12">
+        <h5 class="white-text">About Us</h5>
+        <p class="text-lighten-4">We are a team of college students working on this project like it's our full time job.</p>
+      </div>
+      <div class="col s12 l5 right">
+        <h5 class="white-text">Follow Us</h5>
+        <ul>
+          <li><a class="white-text" href="#!">Twitter</a></li>
+          <li><a class="white-text" href="#!">Facebook</a></li>
+          <li><a class="white-text" href="#!">Instagram</a></li>
+          <li><a class="white-text" href="#!">Tiktok</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer-copyright center">
+    <div class="container">
+    &copy;sweetcourse.com | made by Edda Mae Victoria Balmes
+    </div>
+  </div>
+</footer>
+
+<!-- Jquery CDN -->
+<script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+  <script>
+    $(document).ready(function(){
+        $('.sidenav').sidenav();
+        $('.materialboxed').materialbox();
+        $('.tabs').tabs();
+        $('.slider').slider();
+        $('.fixed-action-btn').floatingActionButton();
+    })
+
+  </script>
+</body>
+</html>
